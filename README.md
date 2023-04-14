@@ -24,6 +24,8 @@ $ bun run minify
 ```
 ## Build for deployment
 ```
-$ bun run buildv
+$ bun run build
 ```
+open dis/index.html -> right click -> open with live server ... if not working, remove the slash symbol before "assets" in HTML to import css and js files: assets/, not /assets/
+
 Zip and upload the dist directory into your hosting
